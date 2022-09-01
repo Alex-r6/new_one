@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  background-color: #f9faff;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainheader {
+  width: 100%;
+  max-width: 1125px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 98px;
+}
+.logoheader {
+  display: flex;
+  align-items: center;
+}
+.logoheader h1 {
+  margin-left: 7px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #3d3d3f;
+}
+.headertext {
+  width: 354px;
+  display: flex;
+  justify-content: space-between;
+}
+.headertext p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3d3d3f;
+}
+.headertext p:hover {
+  cursor: pointer;
+  color: rgba(243, 95, 47, 0.75);
+  transition: 0.3s;
+}
+.buttonheader {
+  width: 118px;
+  height: 42px;
+  background-color: rgba(243, 95, 47, 0.75);
+  color: #ffffff;
+  padding: 12px 21px 12px 24px;
+  border: 0cm;
+  border-radius: 10px;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9faff;
+}
+.smartwebconatainer {
+  width: 100%;
+  max-width: 1125px;
+  display: flex;
+  margin-top: 142px;
+}
+.smartwebtext {
+  width: 50%;
+}
+.smartwebtext h1 {
+  width: 515px;
+  height: 170px;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 85px;
+  color: #3d3d3f;
+}
+.smartwebtext p {
+  width: 536px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3d3d3f;
+  margin: 40px 0;
+}
+.smartwebtext button {
+  width: 163px;
+  color: white;
+  background-color: rgba(243, 95, 47, 0.75);
+  padding: 14px 0 14px 0;
+  border: 0ch;
+  border-radius: 10px;
+}
+.justtextcontainer {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #3d3d3f;
+  margin: 140px 0 55px 0;
+}
+.justtextcontainer p {
+  margin: 0;
+}
+.threefotocontainer {
+  width: 100%;
+  max-width: 1125px;
+  height: 314px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 55px;
+  border: 2px solid #ebebeb;
+  border-radius: 20px;
+}
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foto h2 {
+  max-width: 23px 0 13px 0;
+}
+.foto p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #3d3d3f;
+  opacity: 0.7;
+  margin: 0;
+}
+.line {
+  height: 242px;
+  width: 2px;
+  background-color: #ebebeb;
+}
+.threeticketscontainer {
+  width: 100%;
+  max-width: 1125px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ticket {
+  width: 30%;
+  min-width: 300px;
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+.ticketfoto {
+  position: absolute;
+  top: -25px;
+}
+.ticket h2 {
+  margin: 72px 0 10px 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #3d3d3f;
+}
+.ticket p {
+  width: 277px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #595959;
+  margin-bottom: 27px;
+}
+.ticket img:hover {
+  cursor: pointer;
+  background-color: rgba(243, 95, 47, 0.75);
+}
+.lastprojectscontainer {
+  width: 100%;
+  max-width: 1232px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 399px;
+  margin: 20px 0;
+}
+.projectbutton {
+  padding: 14px 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(243, 95, 47, 0.75);
+  border-radius: 10px;
+  border: 0;
+  margin-top: 60px;
+}
+.teamcontainer {
+  display: flex;
+  width: 100%;
+  max-width: 1125px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.person1 {
+  width: 267px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 0;
+  border-radius: 10px;
+}
+.person1 h2 {
+  margin: 0;
+}
+.person1 p {
+  margin: 1px 0 17px 0;
+}
+.shopopalocontainer {
+  /* background-color: aquamarine; */
+  position: relative;
+  width: 100%;
+  height: 777px;
+  max-width: 773px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roundfoto1 {
+  position: absolute;
+  bottom: 164px;
+  right: 96px;
+}
+.roundfoto2 {
+  position: absolute;
+  bottom: 144px;
+  left: 77px;
+}
+.roundfoto3 {
+  position: absolute;
+  top: 203px;
+  left: 0;
+}
+.roundfoto4 {
+  position: absolute;
+  top: 34px;
+  left: 228px;
+}
+.roundfoto5 {
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+.contactstyle {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #3d3d3f;
+  margin-bottom: 10px;
+}
+.contactinput {
+  /* padding: 10px 195px 19px 12px; */
+  border: 0;
+  border-radius: 10px;
+}
+
+.contactuscontainer {
+  /* background-color: #595959; */
+  width: 100%;
+  max-width: 720px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.C_contactus {
+  width: 46%;
+  margin: 11px 0;
+  max-width: 320px;
+  
+}
+.C_contactus input {
+    width: calc(100% - 12px);
+    height: 52px;
+    padding-left: 12px;
+}
+.C_texteria {
+    width: 100%;
+}
+.C_texteria input {
+ 
+    width: 100%;
+    height: 191px;
+}
+.C_texteria input::placeholder {
+  
+    transform: translate(20px,-70px);
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footertop {
+  display: flex;
+  width: 100%;
+  max-width: 1232px;
+  justify-content: space-between;
+}
+.logofooter {
+  display: flex;
+  align-items: center;
+}
+.logofooter h1 {
+  margin-left: 7px;
+}
+.messager {
+  width: 176px;
+  display: flex;
+  justify-content: space-between;
+}
+.subcribecont {
+  display: flex;
+  flex-direction: column;
+}
+.line2 {
+  width: 100%;
+  height: 2px;
+  background-color: #595959;
+  margin-top: 30px;
+}
+.footerbottom {
+  width: 100%;
+  max-width: 1232px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.bottomtext {
+  width: 292px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+}
+.footerbutton {
+  padding: 12px 117px;
+  background-color: rgba(243, 95, 47, 0.75);
+  color: #ebebeb;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+.footerinput {
+  padding: 12px 171px 12px 20px;
+  border-radius: 10px;
+}
+
+
+
+.cc {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* transform: translate(-400px,-300px) rotateZ(45deg); */
